@@ -1,4 +1,4 @@
-Portainer (CE)
+# Portainer (CE) #
 This example provides a base setup for using Portainer. More details on how to customize the installation and the compose file can be found in portainer documentation.
 
 Demo
@@ -6,12 +6,6 @@ You can try out the public demo instance first: http://demo.portainer.io/
 
 username: admin
 password: tryportainer
-Project structure:
-
-.
-├── compose.yaml
-└── README.md
-compose.yaml
 
 services:
   portainer:
@@ -21,14 +15,8 @@ When deploying this setup, the web interface will be available on port 9000 (e.g
 
 $ docker compose up -d
 Starting portainer ... done
-Expected result
-Check containers are running:
-
-$ docker ps
-CONTAINER ID   IMAGE                           COMMAND                  CREATED          STATUS                          PORTS                                                                                  NAMES
-860311c00e62   portainer/portainer-ce:alpine   "/portainer -H unix:…"   54 seconds ago   Up 53 seconds                   8000/tcp, 0.0.0.0:9000->9000/tcp, :::9000->9000/tcp                                    portainer
-
-Navigate to http://localhost:9000 in your web browser to access the portainer web interface and create an account.
+Expected result: 
+* Navigate to http://localhost:9000 in your web browser to access the portainer web interface and create an account.
 
 Stop the containers with
 
