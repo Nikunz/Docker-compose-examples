@@ -13,8 +13,8 @@ This README file provides an overview of the `Docker Compose configuration` and 
     * `dev-envs`: Sets up development environment tools and user configurations.
 
 # Running the Application #
-    * Access the application by navigating to http://localhost:9090 in your web browser.
-    * one should see the following message
+   * Access the application by navigating to http://localhost:9090 in your web browser.
+   * one should see the following message
                   ##         .
     ## ## ##        ==
  ## ## ## ## ##    ===
